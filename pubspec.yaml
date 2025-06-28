@@ -1,7 +1,10 @@
 name: image2hashtag
-description: AI tabanlı bir paket. Verilen bir görsel için sosyal medya hashtag önerileri üretir.
+description: AI tabanlı bir paket. Verilen bir görsel için sosyal medya hashtag önerileri üretir. Google Gemini Vision API kullanarak görsel analizi yapar ve Türkçe hashtag önerileri sunar.
 version: 0.0.1
-homepage: https://github.com/bilalozcan
+homepage: https://github.com/bilalozcan/image2hashtag
+repository: https://github.com/bilalozcan/image2hashtag
+issue_tracker: https://github.com/bilalozcan/image2hashtag/issues
+documentation: https://github.com/bilalozcan/image2hashtag#readme
 
 environment:
   sdk: ^3.7.0
@@ -10,9 +13,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: 1.4.0
+  http: ^1.4.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: 5.0.0
+  flutter_lints: ^5.0.0
